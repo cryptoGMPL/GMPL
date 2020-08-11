@@ -6,6 +6,9 @@ This repository is a collection of smart contracts that implement the GMPL proto
 The official mainnet addresses are:
 
 UF: 0xF86725b030212D0bF708C80558a3f6e3e19562fc
+
 UFpolicy: 0x073c0913F200d8125E1cd15e0E63A1637903b400
+
 Oracle: 0x51BDF33da44F4ba11355E1d2468218C0bAB67A82
+
 Orchestrator: 0x63c88Ea08238a99995478b460100C3EB31F39cc6
