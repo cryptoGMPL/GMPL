@@ -865,8 +865,8 @@ contract UFragmentsPolicy is Ownable {
     // MAX_SUPPLY = MAX_INT256 / MAX_RATE
     uint256 private constant MAX_SUPPLY = ~(uint256(1) << 255) / MAX_RATE;
 
-    // target rate 0.0001
-    uint256 private constant TARGET_RATE = 1 * 10**(DECIMALS - 4);
+    // target rate 0.002
+    uint256 private constant TARGET_RATE = 2 * 10**(DECIMALS - 3);
 
     // This module orchestrates the rebase execution and downstream notification.
     address public orchestrator;
@@ -881,7 +881,7 @@ contract UFragmentsPolicy is Ownable {
      *
      * @dev The supply adjustment equals (_totalSupply * DeviationFromTargetRate) / rebaseLag
      *      Where DeviationFromTargetRate is (MarketOracleRate - targetRate) / targetRate
-     *      and targetRate is 0.0001
+     *      and targetRate is 0.002
      */
     function rebase() external onlyOrchestrator {
         require(inRebaseWindow());
