@@ -13,7 +13,9 @@ Oracle: 0x51BDF33da44F4ba11355E1d2468218C0bAB67A82
 
 Orchestrator: 0x63c88Ea08238a99995478b460100C3EB31F39cc6
 
-Attributions
+
+
+# Attributions
 Much of this code base is modified from existing works, including:
 
-Ampleforth - Initial rebasing mechanism, modified to better suit the YAM protocol
+Ampleforth - Initial rebasing mechanism, modified to better suit the GMPL protocol
